@@ -1,7 +1,6 @@
-## Hubcrag Background Lines Effect
+## Hubcrag CV Template
 
-### Frontend dependencies
-
+### [Watch it on youtube](https://youtu.be/4dQ5U2x8JkY)
 
 ### Setup demo project
 
