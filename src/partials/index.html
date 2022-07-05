@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  @include('_includes/head.html', { 'title': 'My Page', 'description':
+  'Description main' })
+  <body>
+    <div class="wrapper">
+      <div class="container" id="resume">
+        <main class="main">
+          @include('part/hero.html') @include('part/exp.html')
+        </main>
+        <aside class="aside">@include('part/aside.html')</aside>
+      </div>
+    </div>
+
+    @include('_includes/scripts.html')
+  </body>
+</html>

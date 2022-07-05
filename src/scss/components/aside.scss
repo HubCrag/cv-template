@@ -1,0 +1,40 @@
+.aside {
+  border-left: 2px solid #313334;
+  padding: 8px 30px 0;
+
+  @include a {
+    border: none;
+    padding: 0;
+  }
+  &__list {
+    &-item {
+      &:not(:last-of-type) {
+        margin-bottom: 38px;
+      }
+      .title {
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        font-family: $font-family-ibm;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+        padding: 8px;
+        border: 2px solid #323030;
+        margin-bottom: 22px;
+        @include a {
+            display: inline-block;
+        }
+      }
+      .data {
+        &-row {
+          margin-bottom: 13px;
+        }
+        @include a {
+            .link {
+                display: block;
+            }
+        }
+      }
+    }
+  }
+}

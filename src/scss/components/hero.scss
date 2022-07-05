@@ -1,0 +1,29 @@
+.hero {
+  &__wrapper {
+      padding-right: 30px;
+      padding-bottom: 37px;
+      border-bottom: 2px solid #313334;
+      @include a {
+          padding-right: 0;
+      }
+    .brand {
+      display: inline-block;
+      font-family: $font-family-ibm;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 2.2px;
+      text-transform: uppercase;
+      padding: 8px;
+      border: 2px solid #323030;
+      margin-bottom: 22px;
+    }
+    .title {
+      font-weight: 900;
+      font-size: 51px;
+      margin-bottom: 12px;
+    }
+    .info {
+      font-size: 15px;
+    }
+  }
+}
